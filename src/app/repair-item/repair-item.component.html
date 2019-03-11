@@ -1,0 +1,8 @@
+<div fxLayout="row wrap">
+    <div *ngFor="let repair of repairs">
+        <mat-checkbox></mat-checkbox>
+            <h4>{{ repair.name }}</h4>
+            <h4>{{ repair.price }}</h4>
+            <p>{{ repair.description }}</p>
+    </div>
+</div>
